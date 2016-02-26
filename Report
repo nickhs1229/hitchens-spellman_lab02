@@ -1,0 +1,13 @@
+Report
+
+The purpose of this program is to create a functioning calculator-like program able to take the sum of an input expression of two numbers.
+
+This was accomplished by combining while, if, and else loops with the find method in order to specify particular characters within a given input and then process them in such a way that numbers within the input could be extracted, added together, and then printed out.
+
+Of particular difficulty was devising a method to print the previous expressions in section 3.1 due to Python not remembering past output.
+
+While the solution provided within the code is itself fairly simple, it took a considerable amount of time for me to realize that this was the approach needed to repeat a previous output following a specified user input.
+
+Additionally, it took a slightly less but nontheless considerable amount of time to devise an altered form of the code in section 3.3 to accomodate for the presence of brackets while still being able to provide an error code for brackets that were entered incorrectly.
+
+This was eventually resolved by defining the brackets within the input in a manner similar to defining the addition sign and then altering the existing code to account for their presence.
