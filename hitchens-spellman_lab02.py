@@ -21,7 +21,7 @@ if sign >= 0: #If a "+" sign is found
     first = expr [:sign] #Define the first number
 
     second = expr [sign+1:] #Define the second number
-
+    
     sum = int (first) + int(second) #Define the sum of both numbers
 
     print (first,"+",second,"=",sum) #Print the complete expression
